@@ -4,7 +4,7 @@ namespace Tests\Application\Service;
 use PHPUnit\Framework\TestCase;
 use App\Application\Service\UserService;
 use App\Domain\Model\User;
-use App\Infrastructure\Persistence\UserRepositoryInterface;
+use App\Domain\Repository\UserRepositoryInterface;
 
 class UserServiceTest extends TestCase
 {

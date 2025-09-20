@@ -1,8 +1,8 @@
 <?php
-namespace Tests\Domain\Repository;
+namespace Tests\Infrastructure\Persistence;
 
 use PHPUnit\Framework\TestCase;
-use App\Domain\Repository\MySQLUserRepository;
+use App\Infrastructure\Persistence\MySQLUserRepository;
 use App\Domain\Model\User;
 use PDO;
 use PDOStatement;

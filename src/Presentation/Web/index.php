@@ -4,7 +4,7 @@ namespace App\Presentation\Web;
 require_once __DIR__ . '/../../../vendor/autoload.php';
 
 use App\Infrastructure\Persistence\DatabaseConnection;
-use App\Domain\Repository\MySQLUserRepository;
+use App\Infrastructure\Persistence\MySQLUserRepository;
 use App\Application\Service\UserService;
 
 // Webというディレクトリ名にしたが場合によってはApi

@@ -1,7 +1,7 @@
 <?php
 namespace App\Application\Service;
 
-use App\Infrastructure\Persistence\UserRepositoryInterface;
+use App\Domain\Repository\UserRepositoryInterface;
 use App\Domain\Model\User;
 
 // ユーザサービスクラス（ビジネスロジック）

@@ -1,7 +1,7 @@
 <?php
-namespace App\Domain\Repository;
+namespace App\Infrastructure\Persistence;
 
-use App\Infrastructure\Persistence\UserRepositoryInterface;
+use App\Domain\Repository\UserRepositoryInterface;
 use App\Domain\Model\User;
 use DateTime;
 use PDO;
