@@ -11,7 +11,6 @@
 
 ```sh
 composer install
-composer dump-autoload
 ```
 
 ### Run
